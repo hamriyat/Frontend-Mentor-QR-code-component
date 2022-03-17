@@ -3,20 +3,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
     padding: 0.85rem;
     border-radius: 1rem;
-    width: 300px;
-    box-sizing: border-box;
+    max-width: 300px;
     box-shadow: 0px 10px 25px 2px hsl(217, 18%, 75%);
+    margin: 0 1rem;
 }
 
 img {
@@ -29,7 +29,7 @@ img {
     padding: 0 0.75rem;
 }
 
-h3 {
+h2 {
     font-size: 1.25rem;
 }
 
@@ -39,7 +39,7 @@ p {
 
 .attribution {
     margin-top: 1rem; 
-    font-size: 11px;
+    font-size: 0.85rem;
     text-align: center;
 }
 .attribution a {
